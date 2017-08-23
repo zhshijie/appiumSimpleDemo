@@ -58,9 +58,9 @@ appium-doctor --ios
 1. 运行Appium-Desktop
 2. 开启start server
 3. 点击start new session 
-4. 在 Desired Capabilities 中输入相关的[参数](https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md)后点击`Start Session`![Markdown](http://i1.bvimg.com/601834/911199f4359c3516.png)
-5. 运行成功后，会弹出一个控制界面，在该界面中可以控制手机上正在运行的程序![Markdown](http://i1.bvimg.com/601834/c66f72da6d27ee1f.png)
-6. 点击界面上方中心的录制按钮，可以将你对手机端的操作代码化![Markdown](http://i1.bvimg.com/601834/d764a92cad4e8e1d.png)
+4. 在 Desired Capabilities 中输入相关的[参数](https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md)后点击`Start Session`
+5. 运行成功后，会弹出一个控制界面，在该界面中可以控制手机上正在运行的程序
+6. 点击界面上方中心的录制按钮，可以将你对手机端的操作代码化
 
 
 ## 利用Appium-Python-Client进行iOS的自动化测试
@@ -91,7 +91,7 @@ python setup.py install
 
 #### 配置iOS工程文件 
 
-1. 打开下载后的`appiumSimpleDemo`文件，打开`appiumSimpleDemo.xcodepro`程序,配置下TARGET的签名![Markdown](http://i1.bvimg.com/601834/0b227bcf33ae3afc.png)
+1. 打开下载后的`appiumSimpleDemo`文件，打开`appiumSimpleDemo.xcodepro`程序,配置下TARGET的签名!
 2. 在appiumSimpleDemo的根目录执行编译指令，编译出一个app文件`xcodebuild -sdk iphoneos -target appiumSimpleDemo -configuration Release`，编译成功后app文件的地址会打印在命令行中![Markdown](http://i1.bvimg.com/601834/c51c1f9f0906649f.png)
 3. 将手机连接上电脑，在Xcode的`Window->Devices`中获取到设备的UDID![Markdown](http://i1.bvimg.com/601834/33692992caee80e4.png)
 
