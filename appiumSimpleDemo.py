@@ -17,7 +17,7 @@ class  appiumSimpleTezt (unittest.TestCase):
 				'platformName': 'iOS',
 				'platformVersion': '10.2.1',
 				'deviceName': 'iPad',
-				'bundleId': 'com.cvte.appiumSimpleDemo',
+				'bundleId': 'com.test.appiumSimpleDemo',
 				'udid': '9417217ac6ab33c0a85f799241e2ab2d3acd2447'
 			}
 			)
